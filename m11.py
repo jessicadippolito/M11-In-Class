@@ -16,4 +16,4 @@ class TestRemove(unittest.TestCase):
         self.assertEqual(remove_vowels("aeiou"), "")
         self.assertEqual(remove_vowels("AEIOU"), "")
         self.assertNotEqual(remove_vowels("2"), "")
-        self.assertNotEqual(remove_vowels("cccaeiou"), "")
+        self.assertNotEqual(remove_vowels("cccaeiou"), "ccc")
