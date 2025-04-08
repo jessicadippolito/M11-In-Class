@@ -15,3 +15,4 @@ class TestPrime2(unittest.TestCase):
 class TestRemove(unittest.TestCase):
     def test_removes(self):
         self.assertEqual(remove_vowels("aeiou"), "")
+        self.assertEqual(remove_vowels("AEIOU"), "")
